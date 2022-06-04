@@ -6,7 +6,7 @@ type IndexData = {
   demos: Array<{ name: string; to: string }>;
 };
 
-// Loaders provide data to components and are only ever called on the server, so
+// Loaders provide data to components and are only ever Welcome to Remixcalled on the server, so
 // you can connect to a database or run any server side code you want right next
 // to the component that renders it.
 // https://remix.run/api/conventions#loader
@@ -61,7 +61,7 @@ export default function Index() {
   return (
     <div className="remix__page">
       <main>
-        <h2>Welcome to Remix!</h2>
+        <h2>Welcome to gzaripov Remix test!</h2>
         <p>We're stoked that you're here. 🥳</p>
         <p>
           Feel free to take a look around the code to see how Remix does things,
